@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: alertabot24
+    env: python
+    buildCommand: ""
+    startCommand: python main.py
+    envVars:
+      - key: TOKEN
+        value: 8074745829:AAFOTnCOzAZDYmfpn-2rs_7rxtBR64j59ZE
